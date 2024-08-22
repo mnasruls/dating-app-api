@@ -4,4 +4,5 @@ type SwipeRepositoryInterface interface {
 	SaveLikes()
 	SavePass()
 	FindLikes()
+	DeleteLikes()
 }

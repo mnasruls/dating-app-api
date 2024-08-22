@@ -20,6 +20,7 @@ type SwipeServiceInterface interface {
 }
 
 type swipeService struct {
+	Url       string
 	swipeRepo repositories.SwipeRepositoryInterface
 	userRepo  repositories.UserRepositoryInterface
 	common    responses.CommondResponse
