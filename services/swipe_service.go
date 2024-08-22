@@ -20,7 +20,7 @@ type SwipeServiceInterface interface {
 }
 
 type swipeService struct {
-  swipeRepo repo
+	swipeRepo repositories.SwipeRepositoryInterface
 	userRepo  repositories.UserRepositoryInterface
 	common    responses.CommondResponse
 	redisUtil *utils.Redis

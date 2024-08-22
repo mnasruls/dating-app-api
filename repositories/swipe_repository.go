@@ -1,6 +1,7 @@
 package repositories
 
-type SwipeRepositoryInterface interface{
-	SaveLikes
+type SwipeRepositoryInterface interface {
+	SaveLikes()
+	SavePass()
+	FindLikes()
 }
-
